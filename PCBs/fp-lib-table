@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "kamilib")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad_mod")(options "")(descr ""))
+  (lib (name "mod_legacy")(type "Legacy")(uri "${KIPRJMOD}/lib/mod_legacy/TS-1088R-02026.mod")(options "")(descr ""))
+)

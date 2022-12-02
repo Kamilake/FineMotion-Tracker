@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "kamilib")(type "Legacy")(uri "${KIPRJMOD}/lib/TS-1088R-02026.lib")(options "")(descr ""))
+)
