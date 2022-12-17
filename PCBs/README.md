@@ -67,22 +67,22 @@ kikit fab jlcpcb ^
 
 ```
 
-kikit fab jlcpcb --assembly --schematic ./KTracker.kicad_sch --ignore TP1,TP2 --no-drc ./KTracker.kicad_pcb "./Gerber/main"
+kikit fab jlcpcb --assembly --schematic ./FineMotion-5.kicad_sch --ignore TP1,TP2 --no-drc ./FineMotion-5.kicad_pcb "./Gerber/FM6500"
 
-kikit fab jlcpcb --assembly --schematic ./KTracker_AUX.kicad_sch  --ignore A1 --no-drc ./KTracker_AUX.kicad_pcb "./Gerber/auxpcb"
+kikit fab jlcpcb --assembly --schematic ./KTracker_AUX.kicad_sch  --ignore A1 --no-drc ./KTracker_AUX.kicad_pcb "./Gerber/FM6500E"
 
 
 kikit panelize ^
     -p :jlcTooling ^
-    --layout "grid; rows: 6; cols: 4; space: 3mm" ^
+    --layout "grid; rows: 7; cols: 3; space: 3mm" ^
     --tabs "fixed; hwidth: 10mm; vwidth: 15mm" ^
     --cuts vcuts ^
     --source "tolerance: 1000mm" ^
     --post "millradius: 1mm" ^
-    KTracker.kicad_pcb KTracker_panel.kicad_pcb
+    FineMotion-5.kicad_pcb FineMotion-5_panel.kicad_pcb
 
 
-kikit fab jlcpcb --assembly --schematic ./KTracker.kicad_sch --ignore TP1,TP2 --no-drc ./KTracker_panel.kicad_pcb "./Gerber/main_panel"
+kikit fab jlcpcb --assembly --schematic ./FineMotion-5.kicad_sch --ignore TP1,TP2 --no-drc ./FineMotion-5_panel.kicad_pcb "./Gerber/FineMotion_Panel"
 
 ---
 
