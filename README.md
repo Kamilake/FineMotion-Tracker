@@ -19,6 +19,8 @@ You can use it simply by ordering it from the fabricator
 
 - Power Rating: 500mA@5V (TProg: 2.4KOhm)
 - Wi-Fi: 802.11bgn 2.4GHz (20.5mW@2dBi)
+- Protection Circuit: None, Depend on battery
+- 
 
 ## Prerequirements
 
