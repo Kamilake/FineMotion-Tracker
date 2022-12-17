@@ -15,6 +15,11 @@ You can use it simply by ordering it from the fabricator
 ![KakaoTalk_20220420_084354356_01](https://user-images.githubusercontent.com/15166740/164119670-261c3e02-e0fe-4508-9886-2ccc19d5d1fd.jpg)
 ![KakaoTalk_20220726_093847052](https://user-images.githubusercontent.com/15166740/180898132-acec5d8d-918e-4d9e-ad32-58ac35cc4740.png)-->
 
+## Specification
+
+- Power Rating: 500mA@5V (TProg: 2.4KOhm)
+- Wi-Fi: 802.11bgn 2.4GHz (20.5mW@2dBi)
+
 ## Prerequirements
 
 - PCB: This Repo! []
