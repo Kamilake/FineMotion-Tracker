@@ -3,9 +3,10 @@
 Due to JLCPCB's new assembly policy, soldering on the bottom side or using a non-black PCB will incur additional charges.   
 Bottom side soldering is not possible if the "Economic" assembly option is selected.   
 As the bottom side soldering is only for the connector, manual assembly is recommended.  
-But.. if you ordering more than 31 boards, it is more economical to choose the `Standard assembly` option with panelization.
+But.. if you ordering more than 31 boards, it is more economical to choose the `Standard assembly` option with panelization.  
+If you have any further questions, please feel free to contact me!(Issues, mail, Discord, etc.)  
 
-You need `KiCad 6.0 Command Prompt` and [Kikit](https://github.com/yaqwsx/KiKit) with KiCad 6
+- You need `KiCad 6.0 Command Prompt` and [Kikit](https://github.com/yaqwsx/KiKit) with KiCad 6
 
 ## Panalize and Fabrication
 ```batch
