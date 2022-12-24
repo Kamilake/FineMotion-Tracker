@@ -19,6 +19,10 @@ You can use it simply by ordering it from the fabricator
 ![image](https://user-images.githubusercontent.com/15166740/209420777-812ca429-9d7b-4f0d-8604-7bc034dd56ba.png)
 ![image](https://user-images.githubusercontent.com/15166740/209420814-63488cd2-4e08-49c9-aa34-135fa9019e34.png)
 ![image](https://user-images.githubusercontent.com/15166740/209420816-57d1c694-6230-49aa-a3e7-25622dffc013.png)
+![KakaoTalk_20221224_130624400_03](https://user-images.githubusercontent.com/15166740/209420863-f9336a47-574b-4c65-8325-b619993901eb.jpg)
+![KakaoTalk_20221224_130624400_07](https://user-images.githubusercontent.com/15166740/209420867-e5448ab0-63b1-4d20-9ddd-20a08a36494b.jpg)
+
+
 
 
 ## Specification
