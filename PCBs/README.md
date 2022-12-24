@@ -35,6 +35,7 @@ kikit fab jlcpcb ^
     --no-drc ./KTracker.kicad_pcb ^
     "./Gerber/Using internal MPU-6050+QMC5883L and bottom Lipo"
 ```
+<!--
 ### Using internal MPU-6050+QMC5883L and Left side Lipo
 ```batch
 kikit fab jlcpcb ^
@@ -85,5 +86,7 @@ kikit panelize ^
 kikit fab jlcpcb --assembly --schematic ./FineMotion-5.kicad_sch --ignore TP1,TP2 --no-drc ./FineMotion-5_panel.kicad_pcb "./Gerber/FineMotion_Panel"
 
 ---
+
+-->
 
 
