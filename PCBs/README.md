@@ -2,38 +2,54 @@
 
 Due to JLCPCB's new assembly policy, soldering on the bottom side or using a non-black PCB will incur additional charges.   
 Bottom side soldering is not possible if the "Economic" assembly option is selected.   
-   
-   
 As the bottom side soldering is only for the connector, manual assembly is recommended.   
 
-## Panalize and Fab
+You need `KiCad 6.0 Command Prompt` and [Kikit](https://github.com/yaqwsx/KiKit) with KiCad 6
+
+## Panalize and Fabrication
 ```batch
 kikit panelize ^
     -p :jlcTooling ^
-    --layout "grid; rows: 5; cols: 10;" ^
+    --layout "grid; rows: 7; cols: 3; space: 3mm" ^
+    --tabs "fixed; hwidth: 10mm; vwidth: 15mm" ^
+    --cuts vcuts ^
     --source "tolerance: 1000mm" ^
-    --tabs full ^
-    --cuts vcuts ./KTracker.kicad_pcb ^
-    KTracker_panel.kicad_pcb
+    --post "millradius: 1mm" ^
+    "./FineMotion-5.kicad_pcb" ^
+    "FineMotion-5_panel.kicad_pcb"
 
 kikit fab jlcpcb ^
     --assembly ^
-    --schematic ./KTracker.kicad_sch ^
-    --ignore J1 ^
-    --no-drc ./KTracker_panel.kicad_pcb ^
-    ./fab
+    --schematic ./FineMotion-5.kicad_sch ^
+    --ignore TP1,TP2 ^
+    --no-drc ^
+    "./FineMotion-5_panel.kicad_pcb" ^
+    "./Gerber/FineMotion_Panel"
 ```
 
-## Only Fab
+## Fabrication Only
 
-### Using internal MPU-6050+QMC5883L and bottom Lipo
+### Using Default Configuration
 ```batch
 kikit fab jlcpcb ^
     --assembly ^
-    --schematic ./KTracker.kicad_sch ^
-    --ignore BT1,J3,J4,J5 ^
-    --no-drc ./KTracker.kicad_pcb ^
-    "./Gerber/Using internal MPU-6050+QMC5883L and bottom Lipo"
+    --schematic ./FineMotion-5.kicad_sch ^
+    --ignore TP1,TP2 ^
+    --no-drc ^
+    "./FineMotion-5_panel.kicad_pcb" ^
+    "./Gerber/FineMotion"
+```
+
+<br><hr><br>   
+
+## Panalize and Fabrication Extension Sensor
+```batch
+```
+
+## Fabrication Extension Sensor Only
+
+### Using Default Configuration
+```batch
 ```
 <!--
 ### Using internal MPU-6050+QMC5883L and Left side Lipo
@@ -80,10 +96,16 @@ kikit panelize ^
     --cuts vcuts ^
     --source "tolerance: 1000mm" ^
     --post "millradius: 1mm" ^
-    FineMotion-5.kicad_pcb FineMotion-5_panel.kicad_pcb
+    "./FineMotion-5.kicad_pcb" ^
+    "FineMotion-5_panel.kicad_pcb"
 
-
-kikit fab jlcpcb --assembly --schematic ./FineMotion-5.kicad_sch --ignore TP1,TP2 --no-drc ./FineMotion-5_panel.kicad_pcb "./Gerber/FineMotion_Panel"
+kikit fab jlcpcb ^
+    --assembly ^
+    --schematic ./FineMotion-5.kicad_sch ^
+    --ignore TP1,TP2 ^
+    --no-drc ^
+    "./FineMotion-5_panel.kicad_pcb" ^
+    "./Gerber/FineMotion_Panel"
 
 ---
 
