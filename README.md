@@ -22,6 +22,13 @@ You can use it simply by ordering it from the fabricator
 ![KakaoTalk_20221224_130624400_03](https://user-images.githubusercontent.com/15166740/209420863-f9336a47-574b-4c65-8325-b619993901eb.jpg)
 ![KakaoTalk_20221224_130624400_07](https://user-images.githubusercontent.com/15166740/209420867-e5448ab0-63b1-4d20-9ddd-20a08a36494b.jpg)
 
+## Why should that tracker be able to be detached from the strap?
+
+It is because of the start-up calibration of the MPU-6000 series.
+
+When the MPU first powers up, the DMP measures the static noise, but this needs to be done on every boot. In other words, to reboot the tracker in-game, you must detach it from your body. Not only does this strap adapter help make it very convenient, but it is also a great help in tracker maintenance!
+
+
 
 
 
