@@ -1,4 +1,4 @@
-# FineMotion Tracker
+# FineMotion SlimeVR Tracker!
 ESP8266 Motion Capture Full-Body Tracker for SlimeVR
 
 Full SMT PCB operating in MPU-6500 6DoF mode
