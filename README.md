@@ -30,6 +30,8 @@ It is because of the start-up calibration of the MPU-6000 series.
 
 When the MPU first powers up, the DMP measures the static noise, but this needs to be done on every boot. In other words, to reboot the tracker in-game, you must detach it from your body. Not only does this strap adapter help make it very convenient, but it is also a great help in tracker maintenance!
 
+It only takes 10 seconds for you to assemble the tracker sensor and adapter, and less than 30 seconds to assemble all the trackers to your body :
+
 
 
 
