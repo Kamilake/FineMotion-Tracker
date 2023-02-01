@@ -1,5 +1,5 @@
-# FineMotion Tracker!
-ESP8266 Motion Capture Full-Body Tracker for SlimeVR Ecosystem
+# FineMotion Full-Body Tracker!
+ESP8266 Motion Capture Devices for SlimeVR Ecosystem
 
 Thinnest SlimeVR Tracker!
 
