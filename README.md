@@ -1,5 +1,7 @@
-# FineMotion SlimeVR Tracker!
-ESP8266 Motion Capture Full-Body Tracker for SlimeVR
+# FineMotion Full-Body Tracker!
+ESP8266 Motion Capture Devices for SlimeVR Ecosystem
+
+Thinnest SlimeVR Tracker!
 
 Full SMT PCB operating in MPU-6500 6DoF mode
 
@@ -36,13 +38,13 @@ When the MPU first powers up, the DMP measures the static noise, but this needs 
 
 - Power Rating: 500mA@5V (TProg: 2.4KOhm)
 - Wi-Fi: 802.11bgn 2.4GHz (20.5mW@2dBi)
-- Protection Circuit: None, Depend on battery
-- 
+- Protection Circuit: Depend on battery
+- IMU: Invensense MPU-6500 6DoF Attitude detection sensor
 
 ## Prerequirements
 
-- PCB: This Repo! []
-- 3D Model: This Repo! []
+- PCB: [This Repo!](/PCBs)
+- 3D Model: [This Repo!](/3D%20Models)
 - Belt Strap: https://aliexpress.com/item/1005003002833146.html, or any 50mm width Strap
 - Battery: https://aliexpress.com/item/1005004165245143.html, or any 702050 Cell
 - USB Cable: https://aliexpress.com/item/1005004409330904.html, or any Type-C cables
