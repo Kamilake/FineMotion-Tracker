@@ -38,8 +38,8 @@ When the MPU first powers up, the DMP measures the static noise, but this needs 
 
 - Power Rating: 500mA@5V (TProg: 2.4KOhm)
 - Wi-Fi: 802.11bgn 2.4GHz (20.5mW@2dBi)
-- Protection Circuit: None, Depend on battery
-- 
+- Protection Circuit: Depend on battery
+- IMU: Invensense MPU-6500 6DoF Attitude detection sensor
 
 ## Prerequirements
 
