@@ -52,6 +52,25 @@ It is eco-friendly to save the life of Velcro straps and easily replace broken a
 - Battery: https://aliexpress.com/item/1005004165245143.html, or any 702050 Cell
 - USB Cable: https://aliexpress.com/item/1005004409330904.html, or any Type-C cables
 
+## defines.h
+```cpp
+#define FineMotion_v5
+#define IMU IMU_MPU6500
+#define IMU_ROTATION DEG_0
+#define BOARD BOARD_NODEMCU
+#define SECOND_IMU IMU
+#define SECOND_IMU_ROTATION IMU_ROTATION
+#define BATTERY_MONITOR 1
+#define BATTERY_SHIELD_RESISTANCE 0
+#define BATTERY_SHIELD_R1 12
+#define BATTERY_SHIELD_R2 47
+#define PIN_IMU_SDA 4
+#define PIN_IMU_SCL 5
+#define PIN_IMU_INT 0xFF
+#define PIN_IMU_INT_2 0xFF
+#define PIN_BATTERY_LEVEL 17
+```
+
 ## License
 **This hardware is licensed under the CERN-OHL-P v2 license**, which is a permissive,
 non-viral and non-reciprocal open hardware license. Unlike software licenses like
