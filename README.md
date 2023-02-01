@@ -32,7 +32,7 @@ When the MPU first powers up, the DMP measures the static noise, but this needs 
 
 It only takes 10 seconds for you to assemble the tracker sensor and adapter, and less than 30 seconds to assemble all the trackers to your body \:P
 
-
+It is eco-friendly to save the life of Velcro straps and easily replace broken adapters.
 
 
 
