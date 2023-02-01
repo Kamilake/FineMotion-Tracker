@@ -43,8 +43,8 @@ When the MPU first powers up, the DMP measures the static noise, but this needs 
 
 ## Prerequirements
 
-- PCB: This Repo! []
-- 3D Model: This Repo! []
+- PCB: [This Repo!](/PCBs)
+- 3D Model: [This Repo!](/3D%20Models)
 - Belt Strap: https://aliexpress.com/item/1005003002833146.html, or any 50mm width Strap
 - Battery: https://aliexpress.com/item/1005004165245143.html, or any 702050 Cell
 - USB Cable: https://aliexpress.com/item/1005004409330904.html, or any Type-C cables
