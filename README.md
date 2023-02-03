@@ -52,6 +52,13 @@ It is eco-friendly to save the life of Velcro straps and easily replace broken a
 - Battery: https://aliexpress.com/item/1005004165245143.html, or any 702050 Cell
 - USB Cable: https://aliexpress.com/item/1005004409330904.html, or any Type-C cables
 
+## How do I make it?
+
+1. [Order PCB!](/PCBs)
+2. Order Belt, Battery!
+3. [Print Shell!](/3D%20Models)
+4. Go to SteamVR...
+
 ## defines.h
 ```cpp
 #define FineMotion_v5
