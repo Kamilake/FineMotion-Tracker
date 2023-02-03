@@ -71,6 +71,14 @@ It is eco-friendly to save the life of Velcro straps and easily replace broken a
 #define PIN_BATTERY_LEVEL 17
 ```
 
+## Why do trackers have to be thin?
+
+![image](https://user-images.githubusercontent.com/15166740/216480616-5468ac55-ce28-4b37-8486-5be85c9a62f6.png)
+
+![image](https://user-images.githubusercontent.com/15166740/216480622-75ee1430-e2c8-4386-a897-92c558b35838.png)
+
+The thinner the tracker, the closer the IMU is to the bone and the better the tracking accuracy. It is less affected by inertial force in fast movements.. Above all, it is comfortable when lying on the bed facing the tracker!
+
 ## License
 **This hardware is licensed under the CERN-OHL-P v2 license**, which is a permissive,
 non-viral and non-reciprocal open hardware license. Unlike software licenses like
