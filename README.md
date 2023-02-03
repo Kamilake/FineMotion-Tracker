@@ -1,4 +1,8 @@
-# FineMotion Full-Body Tracker!
+
+![logogithub](https://user-images.githubusercontent.com/15166740/216523034-9a15df98-7c63-4919-a616-7d050a6575b0.png)
+
+# SlimeVR Based Full-Body Tracker
+
 ESP8266 Motion Capture Devices for SlimeVR Ecosystem
 
 Thinnest SlimeVR Tracker!
