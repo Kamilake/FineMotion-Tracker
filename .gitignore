@@ -12,3 +12,6 @@ AUX_PCBs/KTracker_AUX-backups/*
 auto_oculus_touch-master
 PCBs/FineMotion-5-backups
 PCBs/*panel*
+AUX_PCBs/*panel*
+AUX_PCBs/Gerber
+AUX_PCBs/*-backups/
