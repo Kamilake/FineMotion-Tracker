@@ -17,6 +17,7 @@ kikit panelize ^
     --tabs "fixed; hwidth: 10mm; vwidth: 15mm" ^
     --cuts vcuts ^
     --source "tolerance: 1000mm" ^
+    --framing "tightframe; width: 5mm; space: 3mm; " ^
     --post "millradius: 1mm" ^
     "./FineMotion_AUX.kicad_pcb" ^
     "FineMotion_AUX_panel.kicad_pcb"
@@ -24,10 +25,10 @@ kikit panelize ^
 kikit fab jlcpcb ^
     --assembly ^
     --schematic ./FineMotion_AUX.kicad_sch ^
-    --ignore TP1,TP2 ^
-    --no-drc ^
+    --ignore TP1,J1 ^
     "./FineMotion_AUX_panel.kicad_pcb" ^
     "./Gerber/FineMotion_Panel"
+
 ```
 
 ## Fabrication Only
