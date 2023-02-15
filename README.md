@@ -1,6 +1,4 @@
-
-![FineMotion_Weblogo](https://user-images.githubusercontent.com/15166740/216523754-693b00bc-4768-4d31-958c-f95b7874e2e1.png)
-~~Revolutuiuoun~~
+![FineMotionLogo8bit](https://user-images.githubusercontent.com/15166740/219030593-b4450e05-8ab3-4bbc-aa22-df6a7a366d92.png)
 
 # SlimeVR Based Full-Body Tracker
 
