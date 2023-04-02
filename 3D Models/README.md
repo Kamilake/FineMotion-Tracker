@@ -83,3 +83,11 @@
   3MF file for 3D printing
   
   Flat Strap Mount (Chest/Waist Mount) (Recommended)
+  
+  
+  
+## [For F360 user] What is \*.f3z?
+
+![image](https://user-images.githubusercontent.com/15166740/229329717-4e87568a-82b6-4e2f-bb71-48589520b6bc.png)
+
+As you can see in the screenshot, that's it.
