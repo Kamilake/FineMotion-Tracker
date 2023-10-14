@@ -2,6 +2,10 @@
 
 # SlimeVR Based Full-Body Tracker
 
+```
+혹시 트래커를 어디선가 구해서 QR코드를 스캔해 여기에 왔고 구매자가 아무것도 알려주지 않았다면 디스코드 kamilake 로 디엠주세요!
+```
+
 ESP8266 Motion Capture Devices for SlimeVR Ecosystem
 
 Thinnest SlimeVR Tracker!
